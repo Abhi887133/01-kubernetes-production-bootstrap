@@ -1,0 +1,13 @@
+*.log
+*.bak
+*.swp
+*.tmp
+
+backup/
+restore/
+
+*.db
+
+*.tar.gz
+
+*.zip

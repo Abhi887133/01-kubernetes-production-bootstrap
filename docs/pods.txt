@@ -1,0 +1,3 @@
+NAMESPACE     NAME                         READY   STATUS    RESTARTS   AGE     IP          NODE           NOMINATED NODE   READINESS GATES
+default       nginx-test-c6dd84f94-mp6sn   1/1     Running   0          3h29m   10.42.0.3   controlplane   <none>           <none>
+kube-system   coredns-5f5694d56b-nn278     1/1     Running   0          4h2m    10.42.0.2   controlplane   <none>           <none>

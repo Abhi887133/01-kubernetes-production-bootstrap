@@ -1,0 +1,4 @@
+NAME           STATUS   ROLES           AGE     VERSION        INTERNAL-IP       EXTERNAL-IP   OS-IMAGE           KERNEL-VERSION             CONTAINER-RUNTIME
+controlplane   Ready    control-plane   4h2m    v1.36.2+k3s1   192.168.224.134   <none>        Ubuntu 26.04 LTS   7.0.0-27-generic (amd64)   containerd://2.3.2-k3s2
+slave1         Ready    <none>          3h34m   v1.36.2+k3s1   192.168.224.133   <none>        Ubuntu 26.04 LTS   7.0.0-27-generic (amd64)   containerd://2.3.2-k3s2
+slave2         Ready    <none>          3h35m   v1.36.2+k3s1   192.168.224.136   <none>        Ubuntu 26.04 LTS   7.0.0-27-generic (amd64)   containerd://2.3.2-k3s2
