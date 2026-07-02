@@ -1,0 +1,4 @@
+NAME           CPU(cores)   CPU(%)   MEMORY(bytes)   MEMORY(%)   
+controlplane   538m         13%      1174Mi          35%         
+slave1         124m         6%       468Mi           29%         
+slave2         602m         30%      422Mi           26%         
