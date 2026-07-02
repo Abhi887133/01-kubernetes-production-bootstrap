@@ -1,0 +1,2 @@
+NAME                                       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS   CLAIM              STORAGECLASS   VOLUMEATTRIBUTESCLASS   REASON   AGE
+pvc-c54c9a08-ad98-47f9-b887-c73085b33ab4   1Gi        RWO            Delete           Bound    default/demo-pvc   local-path     <unset>                          15m

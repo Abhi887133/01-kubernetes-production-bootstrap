@@ -1,0 +1,23 @@
+Name:          demo-pvc
+Namespace:     default
+StorageClass:  local-path
+Status:        Bound
+Volume:        pvc-c54c9a08-ad98-47f9-b887-c73085b33ab4
+Labels:        <none>
+Annotations:   pv.kubernetes.io/bind-completed: yes
+               pv.kubernetes.io/bound-by-controller: yes
+               volume.beta.kubernetes.io/storage-provisioner: rancher.io/local-path
+               volume.kubernetes.io/selected-node: slave2
+               volume.kubernetes.io/storage-provisioner: rancher.io/local-path
+Finalizers:    [kubernetes.io/pvc-protection]
+Capacity:      1Gi
+Access Modes:  RWO
+VolumeMode:    Filesystem
+Used By:       storage-test
+Events:
+  Type    Reason                 Age                From                                                                                                Message
+  ----    ------                 ----               ----                                                                                                -------
+  Normal  WaitForPodScheduled    16m                persistentvolume-controller                                                                         waiting for pod storage-test-pod to be scheduled
+  Normal  Provisioning           16m                rancher.io/local-path_local-path-provisioner-6d76485965-9v5kx_d998c977-8729-46a9-8c62-b6ec1ba3d3b6  External provisioner is provisioning volume for claim "default/demo-pvc"
+  Normal  ExternalProvisioning   15m (x4 over 16m)  persistentvolume-controller                                                                         Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+  Normal  ProvisioningSucceeded  15m                rancher.io/local-path_local-path-provisioner-6d76485965-9v5kx_d998c977-8729-46a9-8c62-b6ec1ba3d3b6  Successfully provisioned volume pvc-c54c9a08-ad98-47f9-b887-c73085b33ab4

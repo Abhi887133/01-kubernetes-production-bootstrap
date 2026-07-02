@@ -1,0 +1,21 @@
+Name:              pvc-c54c9a08-ad98-47f9-b887-c73085b33ab4
+Labels:            <none>
+Annotations:       local.path.provisioner/selected-node: slave2
+                   pv.kubernetes.io/provisioned-by: rancher.io/local-path
+Finalizers:        [kubernetes.io/pv-protection]
+StorageClass:      local-path
+Status:            Bound
+Claim:             default/demo-pvc
+Reclaim Policy:    Delete
+Access Modes:      RWO
+VolumeMode:        Filesystem
+Capacity:          1Gi
+Node Affinity:     
+  Required Terms:  
+    Term 0:        kubernetes.io/hostname in [slave2]
+Message:           
+Source:
+    Type:          HostPath (bare host directory volume)
+    Path:          /opt/local-path-provisioner/pvc-c54c9a08-ad98-47f9-b887-c73085b33ab4_default_demo-pvc
+    HostPathType:  DirectoryOrCreate
+Events:            <none>
