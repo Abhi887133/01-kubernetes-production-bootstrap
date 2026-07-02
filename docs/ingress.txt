@@ -1,0 +1,2 @@
+NAME         CLASS   HOSTS             ADDRESS           PORTS   AGE
+nginx-demo   nginx   nginx.lab.local   192.168.224.200   80      9m52s

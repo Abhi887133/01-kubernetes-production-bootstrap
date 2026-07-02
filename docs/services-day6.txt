@@ -1,0 +1,7 @@
+NAMESPACE        NAME                                 TYPE           CLUSTER-IP      EXTERNAL-IP       PORT(S)                      AGE
+default          kubernetes                           ClusterIP      10.43.0.1       <none>            443/TCP                      30h
+default          nginx-demo                           ClusterIP      10.43.98.200    <none>            80/TCP                       10m
+ingress-nginx    ingress-nginx-controller             LoadBalancer   10.43.43.237    192.168.224.200   80:31126/TCP,443:31812/TCP   17m
+ingress-nginx    ingress-nginx-controller-admission   ClusterIP      10.43.166.45    <none>            443/TCP                      17m
+kube-system      kube-dns                             ClusterIP      10.43.0.10      <none>            53/UDP,53/TCP,9153/TCP       30h
+metallb-system   metallb-webhook-service              ClusterIP      10.43.132.253   <none>            443/TCP                      25m

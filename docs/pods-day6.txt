@@ -1,0 +1,12 @@
+NAMESPACE            NAME                                        READY   STATUS    RESTARTS        AGE     IP                NODE           NOMINATED NODE   READINESS GATES
+default              nginx-demo-6cc6f7bcd6-cbgnt                 1/1     Running   0               12m     10.42.3.4         slave1         <none>           <none>
+default              nginx-demo-6cc6f7bcd6-twj78                 1/1     Running   0               12m     10.42.0.12        controlplane   <none>           <none>
+default              nginx-test-c6dd84f94-mp6sn                  1/1     Running   2 (3h20m ago)   29h     10.42.0.6         controlplane   <none>           <none>
+default              storage-test                                1/1     Running   0               151m    10.42.1.5         slave2         <none>           <none>
+ingress-nginx        ingress-nginx-controller-5cd9869bf8-n2ndn   1/1     Running   0               17m     10.42.0.10        controlplane   <none>           <none>
+kube-system          coredns-5f5694d56b-nn278                    1/1     Running   2 (3h20m ago)   30h     10.42.0.7         controlplane   <none>           <none>
+local-path-storage   local-path-provisioner-6d76485965-9v5kx     1/1     Running   1 (3h20m ago)   3h50m   10.42.3.3         slave1         <none>           <none>
+metallb-system       controller-7d69cc69fd-v2mrw                 1/1     Running   1 (24m ago)     25m     10.42.0.8         controlplane   <none>           <none>
+metallb-system       speaker-4kqg8                               1/1     Running   0               25m     192.168.224.133   slave1         <none>           <none>
+metallb-system       speaker-9r94l                               1/1     Running   0               25m     192.168.224.134   controlplane   <none>           <none>
+metallb-system       speaker-zthjl                               1/1     Running   0               25m     192.168.224.136   slave2         <none>           <none>
