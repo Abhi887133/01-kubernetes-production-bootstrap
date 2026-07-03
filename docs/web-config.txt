@@ -1,0 +1,28 @@
+Name:         web-config
+Namespace:    default
+Labels:       <none>
+Annotations:  <none>
+
+Data
+====
+APP_NAME:
+----
+Kubernetes Learning
+
+COMPANY:
+----
+Personal Lab
+
+ENVIRONMENT:
+----
+Development
+
+LOG_LEVEL:
+----
+DEBUG
+
+
+BinaryData
+====
+
+Events:  <none>

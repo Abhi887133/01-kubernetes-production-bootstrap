@@ -1,0 +1,4 @@
+NAME               DATA   AGE
+app-config         3      28m
+kube-root-ca.crt   1      2d4h
+web-config         4      12m

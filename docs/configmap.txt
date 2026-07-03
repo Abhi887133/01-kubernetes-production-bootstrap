@@ -1,0 +1,24 @@
+Name:         app-config
+Namespace:    default
+Labels:       <none>
+Annotations:  <none>
+
+Data
+====
+APP_NAME:
+----
+portfolio
+
+ENV:
+----
+development
+
+LOG_LEVEL:
+----
+debug
+
+
+BinaryData
+====
+
+Events:  <none>
