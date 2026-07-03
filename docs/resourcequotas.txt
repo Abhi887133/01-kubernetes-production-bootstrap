@@ -1,0 +1,2 @@
+NAMESPACE   NAME        REQUEST                                                        LIMIT                                          AGE
+dev         dev-quota   pods: 1/10, requests.cpu: 100m/2, requests.memory: 128Mi/2Gi   limits.cpu: 500m/4, limits.memory: 512Mi/4Gi   10m
